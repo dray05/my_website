@@ -11,8 +11,16 @@ body{
 /*Styling the nav bar */
 .navbar {
   overflow:hidden;
-  background-color:#333
+  background-color:#333;
 }
+
+.navbar-right {
+  float:right;
+}
+.navbar-left {
+  float:left;
+}
+
 
 /*Styling the navbar links (my buttons)*/
 .navbar a {
@@ -20,12 +28,8 @@ body{
   display:block;
   color:white;
   text-align: center;
-  padding: 14px 20px;
   text-decoration: none;
-}
-
-.navbar a.right {
-  float:right
+  padding: 14px 20px;
 }
 
 /**Change colour of link when you hover in navbar*/
@@ -46,10 +50,8 @@ body{
 
 .heading2 {
   text transform: uppercase;
-  line-spacing: 10px
   text-align:center;
   padding:14px 20px;
-  font size:27px;
   line-height:1.4;
   font:inherit;
   color:white;
@@ -57,13 +59,12 @@ body{
 
 /* Style all social media font awesome icons */
 .fa {
-  padding:30px;
+  padding:50px;
   font-size:30px;
-  width: 10px;
-  text-align: right;
+  width: 5px;
+  text-align: center;
   text-decoration: none;
   border-radius: 50%;
-  float: right;
 }
 
 /* Add a hover effect if you want */
@@ -97,15 +98,6 @@ body{
   background-color:none
 }
 
-/*Styling the social media navbar no links needed*/
-.navbar a {
-  float:center;
-  display:block;
-  color:white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-}
 
 
 /* .image {
