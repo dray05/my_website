@@ -1,0 +1,81 @@
+body{
+  font-family:Arial,Helevetica, sans-serif;
+  margin:0;
+}
+
+
+
+/*Styling the nav bar */
+
+.navbar {
+  padding: 0;
+}
+
+.heading {
+  display:inline-block;
+  color:orange;
+  font-size: 10em;
+  text-align:center;
+  margin: 0 auto;
+}
+/*
+.navbar-right {
+  float:right;
+}
+*/
+
+
+
+/**Change colour of link when you hover in navbar*/
+.navbar li:hover{
+  background-color:#ddd
+}
+
+.socialmedia {
+	display:inline-block;
+  align-items:right;
+  padding-right:5px;
+}
+
+
+/* Style all social media font awesome icons */
+.fa {
+  padding:10px;
+  width:35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 27%;
+}
+
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+
+/*Instagram*/
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
+
+
+/* .image {
+  background-image: url("https://secure.i.telegraph.co.uk/multimedia/archive/03480/jason-hawkes-londo_3480195k.jpg");
+  background-repeat: no-repeat;
+} */
