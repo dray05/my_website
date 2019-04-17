@@ -71,11 +71,10 @@ h1 {
   Object-fit:cover;
 }
 
-/*
-.navbar-right {
-  float:right;
+p{
+  font-family: monospace;
 }
-*/
+
 /**Change colour of link when you hover in navbar*/
 .navbar li:hover{
   background-color:#ddd

@@ -47,10 +47,14 @@ body{
   text-decoration:none;
 }
 
+h2{
+  font-family: monospace;
+}
 .text-block{
   float:left;
-  height:700px;
-  width:600px;
+  text-align:justify;
+  height:850px;
+  width:550px;
   padding:50px;
   margin: 50px;
   border-radius: 2%;
