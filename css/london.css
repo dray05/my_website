@@ -1,32 +1,59 @@
 body{
 font-family:Arial,Helevetica, sans-serif;
 margin:0;
-background-image: url("../images/coffee1.jpg");
 background-repeat: no-repeat;
 background-size: 100%;
 }
 img {
   border-radius: 50%;
-  width: 80%;
-
-.container {
-  padding: 50px;
+  width: 70%;
+}
+.flex-fill{
+  text-align: center;
+}
+p{
+  text-align:justify;
 }
 
-}
-.h1 {
-  float:center;
-  display:block;
+#brand-header {
+  font-size: 1.5em;
   color:orange;
-  font-size: 4px;
-  text-align:center;
+  text-decoration:none;
 }
 
-.h2 {
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+@media (min-width: 992px) {
+    #brand-header {
+     font-size: 2em;
+  }
+
+  .navbar #navbarNavDropdown {
+    order: 1;
+  }
+
+.pitstop {
+  font-size: 2em;
+  color:orange;
+  text-decoration:none;
+}
+
+.pitstop:hover {
+  font-size: 2em;
+  color:orange;
+  text-decoration:none;
+}
+
+h4 {
   text-align: center;
   display: block;
-  color: blue
-  font-size: 10em
+  color: #909090
+}
+
+.p{
+  font-size: 50 %
 }
 
 /* Container holding the image and the text */
@@ -34,7 +61,7 @@ img {
   position: relative;
 }
 
-/* Bottom right text */
+/* Bottom right text
 .text-block {
   position: absolute;
   bottom: 20px;

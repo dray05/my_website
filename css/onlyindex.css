@@ -1,15 +1,44 @@
 body{
 font-family:Arial,Helevetica, sans-serif;
 margin:0;
-background-image: url("../images/coffee1.jpg");
-background-repeat: no-repeat;
-background-size: 100%;
 }
+
 .heading2 {
   text-align:center;
   padding-top:10%;
   line-height:1.4;
   font:inherit;
   color:white;
-  font-family:Calibri,Arial,Helevetica, sans-serif;	
+  font-family:Calibri,Arial,Helevetica, sans-serif;
+}
+
+#brand-header {
+  font-size: 1.5em;
+  color:orange;
+  text-decoration:none;
+}
+
+.navbar-collapse {
+  flex-grow: unset;
+}
+
+@media (min-width: 992px) {
+    #brand-header {
+     font-size: 2em;
+  }
+
+  .navbar #navbarNavDropdown {
+    order: 1;
+  }
+
+.pitstop {
+  font-size: 2em;
+  color:orange;
+  text-decoration:none;
+}
+
+.pitstop:hover {
+  font-size: 2em;
+  color:orange;
+  text-decoration:none;
 }
