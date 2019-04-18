@@ -4,6 +4,7 @@ margin:0;
 background-repeat: no-repeat;
 background-size: 100%;
 }
+
 img {
   border-radius: 50%;
   width: 70%;
@@ -13,37 +14,6 @@ img {
 }
 p{
   text-align:justify;
-}
-
-#brand-header {
-  font-size: 1.5em;
-  color:orange;
-  text-decoration:none;
-}
-
-.navbar-collapse {
-  flex-grow: unset;
-}
-
-@media (min-width: 992px) {
-    #brand-header {
-     font-size: 2em;
-  }
-
-  .navbar #navbarNavDropdown {
-    order: 1;
-  }
-
-.pitstop {
-  font-size: 2em;
-  color:orange;
-  text-decoration:none;
-}
-
-.pitstop:hover {
-  font-size: 2em;
-  color:orange;
-  text-decoration:none;
 }
 
 h4 {

@@ -29,7 +29,7 @@ h1 {
 }
 
 #brand-header {
-  font-size: 1em;
+  font-size: 1.5em;
   color:orange;
   text-decoration:none;
 }
@@ -38,14 +38,9 @@ h1 {
   flex-grow: unset;
 }
 
-@media (min-width: 992px) {
-    #brand-header {
-     font-size: 2em;
-  }
-
-  .navbar #navbarNavDropdown {
+.navbar #navbarNavDropdown {
     order: 1;
-  }
+}
 
 .pitstop {
   font-size: 2em;
@@ -121,7 +116,10 @@ p{
   color: white;
 }
 
-
+@media (min-width: 768px) {
+    #brand-header {
+     font-size: 2em;
+}
 
 
 /* .image {
